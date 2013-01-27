@@ -1,0 +1,50 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  line-height: 1.25;
+  padding: 15px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: orange;
+}
+
+h2 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: orange;
+}
+
+li {
+  font-size: medium;
+}
+
+p {
+  font-size: medium;
+  color: white;
+}
+
+#tagline p {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+}
+
+a:link, a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+a:active {
+  color: orange;
+  background-color: black;
+}
