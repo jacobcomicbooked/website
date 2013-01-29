@@ -8,11 +8,22 @@ body {
 h1 {
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: orange;
+  padding: 110px;
+  margin-top: -340px;
 }
 
 h2 {
   font-family: "Trebuchet MS", Arial, sans-serif;
   color: orange;
+  padding: 110px;
+  margin-top: -215px;
+}
+
+h3 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: orange;
+  padding: 110px;
+  margin-top: -215px;
 }
 
 li {
@@ -22,11 +33,16 @@ li {
 p {
   font-size: medium;
   color: white;
+  padding: 110px;
+  margin-top: -225px;
 }
 
 #tagline p {
   font-style: italic;
   font-family: Georgia, Times, serif;
+  padding:100px;
+  margin-left:10px;
+  margin-top:-210px;
 }
 
 a:link, a:visited {
@@ -47,4 +63,47 @@ a:hover {
 a:active {
   color: orange;
   background-color: black;
+}
+
+.nav {
+	list-style-type:none;
+	border:solid white 1px;
+	padding-left:0px;
+	padding-right:0px;
+	width:100px;
+}
+
+.nav a {
+	text-decoration:none;
+	color:orange;
+	display:block;
+}
+
+.nav a:hover {
+	background-color:black;
+}
+
+.nav li:hover {
+	position:relative;
+	background-color:black;
+}
+
+ul.submenu {
+	display:none;
+	list-style-type:none;
+	padding-left:0px;
+	padding-right:0px;
+	z-index:1;
+}
+
+li:hover .submenu {
+	display:block;
+	border:solid white 1px;
+	background-color:black;
+	position: absolute;
+	left:50px;
+	top:0px;
+	width:150px;
+	padding-right:-100px;
+	padding-bottom: -300px;
 }
