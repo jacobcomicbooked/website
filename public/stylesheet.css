@@ -30,14 +30,10 @@ li {
   font-size: medium;
 }
 
-li1 {
-	font-size: medium;
-}
-
 p {
   font-size: medium;
   color: white;
-  padding: 110px;
+  padding: -110px;
   margin-top: -225px;
 }
 
@@ -46,6 +42,7 @@ p {
   font-family: Georgia, Times, serif;
   padding:100px;
   margin-left:10px;
+  margin-right:100px;
   margin-top:-210px;
 }
 
